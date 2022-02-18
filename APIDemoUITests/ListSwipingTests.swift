@@ -8,9 +8,8 @@
 import XCTest
 
 // test various list swiping
-// NB These tests are relying on the live API to return data for them to work
-//    This is obviously a point of potential failure and so must be monitored.
-//    To solve this we need a dummy API running in the test environment to enable us to inject data into the testing process automatically and reliably
+// These tests use a dummy api for their data so that we don't have to rely on the live API to test
+// the UI.  The dummy api is turned on using a launch argument that the app checks for in DEBUG mode
 
 class ListSwipingTests: XCTestCase {
     
