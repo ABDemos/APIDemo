@@ -10,7 +10,18 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    // ============================================================
+    // App wide information
+    // ============================================================
 
+    static let AppTitle:String = "CRYPTO API"
+    
+    static let data = ObjData()
+    
+    static let CELL_COIN:String = "CELL_COIN"
+    
+    // ============================================================
+    // ============================================================
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
