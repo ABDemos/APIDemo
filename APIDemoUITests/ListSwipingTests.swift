@@ -11,7 +11,7 @@ import XCTest
 // These tests use a dummy api for their data so that we don't have to rely on the live API to test
 // the UI.
 //
-// The dummy api is turned on using a launch argument that the app checks for in DEBUG mode
+// The dummy api is turned on using a launch argument that the app checks for in DEBUG mode.
  
 class ListSwipingTests: XCTestCase {
     
